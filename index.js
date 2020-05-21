@@ -11,10 +11,12 @@ function nowServing(katzDeliLine){
   }
 }
 
+fun
+
 function currentLine(line) {
-
   var newLine = [];
-
+  var i = 0;
+  
   for (i = 0; i < line.length; i++) {
     newLine.push(` ${[i + 1]}. ${line[i]}`);
   }
@@ -25,3 +27,4 @@ function currentLine(line) {
   else {
     return (`The line is currently:${newLine}`);
     }
+  }
